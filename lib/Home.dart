@@ -10,7 +10,6 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _indiceAtual = 0;
-  String _resultado = "";
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +43,7 @@ class _HomeState extends State<Home> {
           BottomNavigationBarItem(
               title: Text("Orações"), icon: Icon(Icons.book)),
           BottomNavigationBarItem(
-              title: Text("Calendario"), icon: Icon(Icons.calendar_today)),
+              title: Text("Calendário"), icon: Icon(Icons.calendar_today)),
         ],
       ),
     );

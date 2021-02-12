@@ -11,7 +11,7 @@ class _CalendarioState extends State<Calendario> {
     return Container(
       child: Center(
         child: Text(
-          "Calendario com datas importantes",
+          "Calendário com datas importantes",
           style: TextStyle(fontSize: 25),
         ),
       ),
