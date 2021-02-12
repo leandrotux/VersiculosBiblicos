@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:versiculosBiblicos/telas/Oracoes/SaoJose.dart';
 
 class Oracao extends StatefulWidget {
   @override
@@ -10,10 +11,11 @@ class _OracaoState extends State<Oracao> {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: Text(
+        child: SaoJose(),
+        /*child: Text(
           "Em breve orações aqui",
           style: TextStyle(fontSize: 25),
-        ),
+        ),*/
       ),
     );
   }
