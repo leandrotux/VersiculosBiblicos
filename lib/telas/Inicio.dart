@@ -63,6 +63,11 @@ class _InicioState extends State<Inicio> {
     });
   }
 
+  void initState() {
+    super.initState();
+    _gerarVersiculos();
+  }
+
   var _versiculoGerada = "Clique abaixo para ver o versículo!";
   @override
   int _indiceAtual = 0;
